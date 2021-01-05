@@ -1,0 +1,43 @@
+
+.Header{
+    text-transform: capitalize;
+    word-wrap: break-word;
+}
+
+.Ocultar{
+    width: 0%;
+    color: transparent !important;
+    height: 0px;
+    padding: 0px !important;
+    font-size: 0% !important
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+    .btn-responsive{
+      padding:4px 9px !important;
+      font-size:90% !important;
+      line-height: 1.2 !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .btn-responsive{
+      padding:2px 4px !important;
+      font-size:80% !important;
+      line-height: 1 !important;
+    }
+}
+
+.etiquetas{
+  text-transform: capitalize;
+}
+.inputFile{
+    color: transparent !important;
+    width: 43% !important;
+    height: 100% !important;
+    padding: none !important;
+    float: right
+}
+.requerido{
+  color: red
+}

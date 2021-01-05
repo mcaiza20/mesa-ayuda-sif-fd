@@ -1,0 +1,23 @@
+.tab-content{
+  border-right: 1px solid lightgrey !important;
+  border-left: 1px solid lightgrey !important;
+  border-bottom: 1px solid lightgrey !important;
+}
+.principal{
+  text-transform: uppercase;
+  text-align: left !important;
+  margin-left: 3%; 
+  font-size: xx-large;
+  margin-bottom: 25px;
+  font-weight: bolder;
+}
+.botonCrear{
+  text-align: right !important;
+  /* margin-right: 5%; */
+  margin-top: 2%;
+}
+
+.row{
+  /* margin-left: 0px;
+  margin-right: 0px; */
+}

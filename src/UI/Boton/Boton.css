@@ -1,0 +1,70 @@
+/* .btn{
+    
+} 
+
+.btn-primary{
+    
+}
+
+#titulo{
+    //word-wrap: break-word 
+} */
+
+.Success {
+    background-color: #5C9210 !important;
+    border-color: #5C9210 !important;
+}
+.Exit {
+    background-color: gray !important;
+    border-color: gray !important;
+}
+
+.Excell { 
+    background-color: #287233 !important;
+    border-color: #287233 !important;
+}
+
+.Danger {
+    background-color: red !important;
+    border-color: red !important;
+}
+ 
+.Menu{
+    background-color:  transparent !important;
+    border-color: transparent !important;
+    margin-bottom: 30px !important;
+    margin-top: 10px !important;
+    height: 160px !important;
+    width: 200px !important;
+    color: #2874a6 !important
+}
+
+.Primary{
+    background-color:  #2874a6 !important;
+    border-color: #2874a6 !important;
+    color: white !important;
+}
+
+.btn-primary:disabled{
+    background-color: gray !important;
+    cursor: not-allowed !important;
+    
+}
+
+.cantidadMenos{
+    background-color: red !important;
+    border-color: red !important;
+    padding: 0px !important;
+    width: 32px;
+    height: 32px;
+    margin-top: 1px;
+}
+
+.cantidadMas{
+    background-color: #5C9210 !important;
+    border-color: #5C9210 !important;
+    padding: 0px !important;
+    width: 32px;
+    height: 32px;
+    margin-top: 1px;
+}

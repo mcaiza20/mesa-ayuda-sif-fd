@@ -1,0 +1,81 @@
+.icono{
+    margin-right: 5%;
+}
+
+.opcion{
+    margin-top: 1%;
+}
+
+.activo{
+    background: #bdbdbd;
+    margin-left: 0.14%;
+    margin-right: 0.14%;
+    color: #2874a6;
+    cursor: pointer;
+}
+
+.inactivo{
+    background: transparent;
+    color: black;
+    cursor: pointer;
+}
+
+.filtros{
+    margin-top: 3%
+}
+.boton{
+    margin: 2%;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: white;
+    color: #222!important;
+    text-align: center;
+    cursor: pointer;
+}
+
+.boton.disable{
+    background-color: white;
+    color: #222!important;
+    text-align: center;
+    cursor: crosshair;
+}
+
+.boton.azul{
+    background-color: #0b96df; /* Código de un color Azul */
+    color: white!important;
+}
+
+.boton:hover {
+    background-color: #2874a6;
+}
+
+tabla{
+    width: 100%;
+}
+
+/* 
+@media screen and (max-width: 600px) {
+    tabla.table {
+        width:100%;
+    }
+    tabla.thead {
+        display: none;
+    }
+    tabla.tr:nth-of-type(2n) {
+        background-color: inherit;
+    }
+    tabla.tr td:first-child {
+        background: #f0f0f0;
+        font-weight:bold;
+        font-size:1.3em;
+    }
+    tabla.tbody td {
+        display: block;
+        text-align:center;
+    }
+    tabla.tbody td:before {
+        content: attr(data-th);
+        display: block;
+        text-align:center;
+    }
+  } */

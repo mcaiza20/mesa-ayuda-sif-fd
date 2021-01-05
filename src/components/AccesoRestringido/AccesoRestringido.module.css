@@ -1,0 +1,9 @@
+.fila{
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.fondo{
+    background-color: #990000 !important;
+    background-image: linear-gradient(147deg, #990000 0%, #ff0000 74%) !important;
+    
+}

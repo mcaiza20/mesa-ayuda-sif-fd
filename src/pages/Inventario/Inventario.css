@@ -1,0 +1,97 @@
+/* .nav-tabs {
+  border-bottom: 1px solid #dee2e6;
+  justify-content: center;
+  position: relative;
+  /*margin-top: 50px;
+  font-size: 15px;
+  padding: 0px;
+  list-style: none;
+  background: #f8f9fa;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+  display: flex !important;
+  border-radius: 50px;
+  position: relative;
+}
+
+a.nav-item.nav-link {
+  text-decoration: none;
+  color: darkgray;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  transition-duration: 0.6s;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+  background: #dbebf9 !important;
+  color: #3CB371;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#05abe0', endColorstr='#8200f4', GradientType=1);
+  
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+  background-color: #fff;
+}
+
+/*.nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+  border-color: #0056b3 #0056b3 #0056b3 !important;
+}
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+  border-color: #0056b3#0056b3 #0056b3 !important;
+}
+
+
+
+.nav-tabs .nav-link {
+  border: 2px solid transparent !important;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+} */
+
+.selector {
+  height: 100% !important;
+  display: inline-block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+  border-radius: 50px;
+  transition-duration: 0.6s;
+  transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.ant-input-number {
+  margin-bottom: 24px;
+  margin-right: 10px;
+  width: 100%
+}
+
+.Margen{
+  margin: 0.5% !important;
+}
+.inputFile{
+    color: transparent !important;
+    width: 100% !important;
+    height: 100% !important;
+    margin-top: 0.7% !important;
+}
+
+.requerido{
+  color: red
+}
+
+.margenSuperiorInput{
+  margin-top: 2.4%;
+}
+
+.calendario{
+  width: 90%;
+  margin-bottom: 24px;
+}
+
+

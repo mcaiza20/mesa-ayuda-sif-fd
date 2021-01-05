@@ -1,0 +1,20 @@
+.col-md-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+    margin-right: auto;
+}
+.p-calendar {
+    position: relative;
+    display: inline-block;
+    margin-left: 14px;
+    width: 200%;
+}
+.requerido{
+    color: red
+}
+.inputFile{
+    color: transparent !important;
+    width: 100% !important;
+    height: 100% !important;
+    margin-top: 0.7% !important;
+}

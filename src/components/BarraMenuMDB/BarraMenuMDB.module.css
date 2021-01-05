@@ -1,0 +1,126 @@
+
+
+.botonLogout {
+    color: #ffffff;
+    background-color:  #2874a6 !important;
+    border-color: #2874a6 !important;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    padding: 9px 30px;
+    font-size: 16px;
+    line-height: 28px;
+    border: 2px solid;
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle;
+    user-select: none;
+    transition: 250ms all ease-in-out;
+}
+
+.botonLogout a{
+    text-decoration: none !important;
+}
+
+.botonLogout:hover {
+    color: #ffffff;
+    background-color: #4ab5e2 !important;
+    border-color: #4ab5e2 !important;
+}
+
+.menu_cuerpo {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.boton_menu {
+    color: #2874a6 !important;
+    background-color: #bdbdbd ;
+    border-color: #bdbdbd  !important;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    padding: 9px 20px;
+    font-size: 16px;
+    line-height: 28px;
+    border: 2px solid;
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle;
+    user-select: none;
+    transition: 250ms all ease-in-out;
+}
+.boton_menu_active {
+    color: #ffffff;
+    background-color: #2874a6 !important;
+    border-color: #2874a6 !important;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    padding: 9px 20px;
+    font-size: 16px;
+    line-height: 28px;
+    border: 2px solid;
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle;
+    user-select: none;
+    transition: 250ms all ease-in-out;
+}
+
+.boton_menu:hover {
+    color: #ffffff !important;
+    border-color: #2874a6 !important;
+    background: #2874a6 !important;
+}
+
+
+@media(max-width:770px) {
+    .menu_arriba {
+        display: none;
+    }
+    .mini_brand {
+        display: flex !important;
+        margin-right: auto !important;
+    }
+    .elegant-color {
+        background-color: #ffff !important;
+    }
+    .info2 {
+        display: block;
+        text-align: right;
+        margin-right: 10%;
+    }
+    .textoP {
+        margin-top: 4px;
+        color: #ffffff;
+    }
+}
+@media(max-width:1200px){
+    .collapse{
+        margin-right: -16.8px;
+        margin-left: -16.8px;
+        background: #bdbdbd !important;
+        padding: 2%;
+        z-index: 1;
+    }
+}

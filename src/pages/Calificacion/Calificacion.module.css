@@ -1,0 +1,10 @@
+/*css calificacion*/
+.rowCalificacion{
+    margin-top:34px;
+    margin-bottom:34px;
+    text-align: center;
+    justify-content: center;
+  }
+  label {
+    display: inline !important;
+  }

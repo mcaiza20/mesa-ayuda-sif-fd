@@ -1,0 +1,190 @@
+.contenedor{
+    max-width: 98%;
+}
+.tituloMayorista{
+    font-size: 18px;
+    margin: 2%;
+}
+
+.tituloContenido{
+    font-size: 16px;
+    margin: 2%;
+}
+
+.steps-action{
+    margin: 1%;
+    padding: 1%;
+}
+
+.titulos{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+@media (max-width: 768px) {
+    .btn-responsive{
+      padding:2px 4px !important;
+      font-size:80% !important;
+      line-height: 1 !important;
+    }
+    .titulos{
+        font-size: 18px;
+        text-align: center
+    }
+    .tituloMayorista{
+        font-size: 14px;
+        margin: 2%;
+    }
+    .tituloContenido{
+        font-size: 12px;
+        margin: 2% 2% 4% 2%;
+    }
+    .steps-action{
+        margin: 1%;
+        padding: 1%;
+        text-align: center
+    }
+    .margenBtn{
+        padding-top: 12% !important;
+        text-align: center;
+    }
+    .inputCantidad{
+        margin: 0% 1% 0% 1%;
+        width: 60%;
+        height: 100%;
+        text-align: center;
+        border: 0.5px solid gray;
+        border-radius: 5%;
+        padding: 1%;
+    }
+  }
+  
+ @media (min-width: 576px) and (max-width: 992px) {
+    .btn-responsive{
+      padding:4px 9px !important;
+      font-size:90% !important;
+      line-height: 1.2 !important;
+    }
+    .titulos{
+        font-size: 12px;
+        text-align: center
+    }
+    .tituloMayorista{
+        font-size: 14px;
+        margin: 2%;
+    }
+    .tituloContenido{
+        font-size: 12px;
+        margin: 2% 2% 4% 2%;
+    }
+    .steps-action{
+        margin: 1%;
+        padding: 1%;
+        text-align: center
+    }
+    .margenBtn{
+        padding-top: 12% !important;
+        text-align: center;
+    }
+    .inputCantidad{
+        margin: 0% 1% 0% 1% !important;
+        width: 60% !important;
+        height: 100% !important;
+        text-align: center !important;
+        border: 0.5px solid gray !important;
+        border-radius: 5% !important;
+        padding: 1% !important;
+    }
+  }
+  .rowService {
+    border: 1.5px solid #e7e9ec;
+    background-color: white;
+    margin-left: 0.1%;
+    padding: 0.75%;
+}
+
+.textArea{
+    margin-top: 1%;
+    background-color: white;
+    margin-left: 0.1%;
+    width: 100%
+}
+
+.botonRedondo{
+    margin: 30px;
+    background-color: #2874a6 !important;
+    color: white !important;
+}
+.grupoRadio{
+    width: 98.9%
+}
+
+.ant-select ant-select-enabled{
+    margin-top: 0.6% !important;
+}
+.area{
+    margin-top: 0.5%;
+}
+.areaParteAfectada{
+    margin-top: 0.5%;
+    width: 100%;
+    height: 80%;
+}
+.tabla{
+    margin-left: 1%;
+}
+
+.margenBtn{
+    padding-top: 2.5%;
+}
+
+.inputCantidad{ 
+    margin: 0.5% 1% 0% 1%;
+    width: 60%;
+    text-align: center;
+    border: 0.5px solid gray;
+    border-radius: 5%;
+    padding: 2%;
+}
+
+.borrar{
+    color:red
+}
+
+.p-autocomplete{
+    width: auto !important;
+}
+.autocomplete{
+    padding: 0.429em !important;
+    width: 100% !important;
+    zoom: 1;
+    margin: 0% !important;
+    margin-left: -6px !important;
+    cursor: pointer;
+    box-shadow: none;
+    position: relative;
+    display: inline-flex !important;
+}
+
+.botonMas{
+    color: white !important;
+    background-color: #66bb6a !important;
+    border-color: #66bb6a !important;
+    font-weight: bold !important;
+}
+
+
+.botonMenos{
+    color: white !important;
+    background-color: #ef5350 !important;
+    border-color: #ef5350 !important;
+    font-weight: bold !important;
+}
+
+.alineacionBotones{
+    text-align: end;
+}
+.requerido{
+    color: red
+}

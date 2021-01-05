@@ -1,0 +1,34 @@
+{
+    "sla":[
+        {
+            "prioridad":"alta",
+            "descripción":"",
+            "tiempo respuesta (horas)":"",
+            "modalidad de comunicación":"",
+            "tiempo máximo de diagnóstico (horas)":"",
+            "tiempo máximo de solución (horas)":"",
+            "forma de trabajo para diagnóstico o solución":"",
+            "entregables":""
+        },
+        {
+            "prioridad":"media",
+            "descripción":"",
+            "tiempo respuesta (horas)":"",
+            "modalidad de comunicación":"",
+            "tiempo máximo de diagnóstico (horas)":"",
+            "tiempo máximo de solución (horas)":"",
+            "forma de trabajo para diagnóstico o solución":"",
+            "entregables":""
+        },
+        {
+           "prioridad":"baja",
+            "descripción":"",
+            "tiempo respuesta (horas)":"",
+            "modalidad de comunicación":"",
+            "tiempo máximo de diagnóstico (horas)":"",
+            "tiempo máximo de solución (horas)":"",
+            "forma de trabajo para diagnóstico o solución":"",
+            "entregables":""
+        }
+    ]
+}

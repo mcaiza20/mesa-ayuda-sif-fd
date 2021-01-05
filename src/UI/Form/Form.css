@@ -1,0 +1,11 @@
+.button{
+    text-align: center;
+    top: 20px;
+    margin-bottom: 20px !important;
+}
+
+
+
+.bodyAcordion{
+    overflow-y: scroll; 
+}

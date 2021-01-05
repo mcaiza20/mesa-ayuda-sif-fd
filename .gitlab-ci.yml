@@ -1,0 +1,31 @@
+image: node:12.16.2 
+
+cache:
+  key: ${CI_COMMIT_REF_SLUG}
+  paths:
+    - node_modules/
+
+variables:
+  PUBLIC_URL: /helpdesk # The path of the application
+
+before_script:
+  - npm install
+
+#test:
+# stage: test
+#script:
+# - CI=false npm test
+
+pages:
+  stage: deploy
+  script:
+    - CI=false npm run build
+    - rm -rf public
+    - mv build public
+    - cp public/index.html public/404.html # Fix for BrowserRouter
+    - find public -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|css\)$' -exec gzip -f -k {} \; # Compress
+  artifacts:
+    paths:
+      - public # GitLab pages directory
+  only:
+  - master

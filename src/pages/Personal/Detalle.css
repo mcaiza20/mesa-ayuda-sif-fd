@@ -1,0 +1,27 @@
+/* body .p-panel .p-panel-content {
+    padding: 0.571em 1em;
+    border: 1px solid #c8c8c8;
+    background-color: #ffffffc7;
+    color: #333333;
+    border-top: 0 none;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+body .p-panel {
+    padding: 0;
+    border: 0 none;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+body .p-autocomplete.p-autocomplete-multiple .p-autocomplete-multiple-container {
+    max-width: 280% !important;
+    width: 35% !important;
+    padding: 0.2145em 0.429em;
+    display: inline-block;
+}
+.p-autocomplete .p-autocomplete-panel {
+    min-width: 35%;
+    left: 0px !important;
+} */

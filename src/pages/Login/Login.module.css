@@ -1,0 +1,36 @@
+.container{
+    /* border: 1px solid darkgray;
+    max-width: 100%; */
+    justify-content: center;
+    text-align: center;
+}
+
+.cardLogin{
+    width: 50% !important;
+    margin-top: 6% !important;
+    margin-bottom:34px !important;
+    border-radius: 50px !important;
+    background: #e8e8e8 !important;
+    -webkit-box-shadow: -1px 2px 12px 1px rgba(158,156,158,1);
+    -moz-box-shadow: -1px 2px 12px 1px rgba(158,156,158,1);
+    box-shadow: -1px 2px 12px 1px rgba(158,156,158,1);
+
+}
+
+@media (max-width: 768px){
+    .cardLogin{
+        width: 80% !important;
+        margin-top: 6% !important;
+        margin-bottom:34px !important;
+        border-radius: 50px !important;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+    .cardLogin{
+        width: 80% !important;
+        margin-top: 6% !important;
+        margin-bottom:34px !important;
+        border-radius: 50px !important;
+    }
+}

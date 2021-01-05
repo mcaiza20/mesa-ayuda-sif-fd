@@ -1,0 +1,19 @@
+.caru{
+    opacity: 0.4;
+    position: fixed;
+    z-index: -20;
+    width: 100%;
+    /* margin-top: 10%; */
+    text-align: -moz-center;
+    text-align:  -webkit-center;
+    height: 100%; 
+/* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #bdbdbd !important;
+  }
+.carousel{
+  width: 70% !important
+}
+

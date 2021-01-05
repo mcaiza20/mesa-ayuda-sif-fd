@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+body .p-message.p-message-success {
+  background-color: transparent !important;
+  border: 0 none;
+}
+
+body .p-message.p-message-warn {
+  background-color: transparent !important;
+  border: 0 none;
+}
+
+body .p-message.p-message-warn .p-message-icon {
+  color: red !important;
+}
+body .p-message.p-message-success .p-message-icon {
+  color: #00ff92 !important;
+} 
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
