@@ -1,0 +1,1 @@
+{"version":3,"sources":["Titulo.css"],"names":[],"mappings":"AAAA,QACI,wBAAyB,CACzB,iBAAkB,CACrB,kBAAmB,CACnB,kBAAmB,CAChB,kBACJ","file":"25.e8f89387.chunk.css","sourcesContent":[".Titulo{\r\n    text-transform: uppercase;\r\n    text-align: center;\r\n\tfont-size: xx-large;\r\n\tmargin-bottom: 25px;\r\n    font-weight: bolder;\r\n}\r\n"]}
